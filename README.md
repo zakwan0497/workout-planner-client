@@ -1,70 +1,42 @@
-# Getting Started with Create React App
+ChatGPT tips for front end React application:
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+In a front-end React application, you should focus on the src folder first. Here's why:
 
-## Available Scripts
+    1. Core Application Logic: The src folder contains the core application logic, including components, state management, and routing. It's the backbone of your application, so setting it up first is crucial.
 
-In the project directory, you can run:
+    2. Development Flow: By building the src folder first, you establish the main structure and functionality of your app. This allows you to test and iterate on the application more effectively during development.
 
-### `npm start`
+    3. Public Folder Usage: The public folder mainly contains static assets such as images, favicon, and the HTML template. These assets are important but secondary to the functionality provided by your React components and logic.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+Recommended Steps:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+    1. Set Up src Folder:
 
-### `npm test`
+        - Components: Create your components and organize them logically.
+        - State Management: Set up state management using Context API, Redux, or any other preferred method.
+        - Routing: Define the routes if your application is using React Router or a similar library.
+        - Styles: Implement styles using CSS, SASS, or CSS-in-JS solutions.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+    2. Configure the public Folder:
 
-### `npm run build`
+        - Add any static assets your application needs.
+        - Customize the index.html if necessary, adding metadata, links to stylesheets, or external scripts.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+In 'src' folder, do these steps:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+    1. App and Index Files:
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+        - index.js: This is the entry point of your application where you render the root component into the DOM.
+        - App.js: This is the root component that will host your application’s main structure, including routing and initial layout.
 
-### `npm run eject`
+    2. Core Components:
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+        - Begin with creating some of the core components that will be used across multiple pages or other components. Examples include Header, Footer, Sidebar, etc. These components establish the basic layout and recurring elements of your application.
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+    3. Pages:
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+        - Create the main pages (views) of your application. These could be components like HomePage, AboutPage, ContactPage, etc. These components typically represent the main screens or routes of your app and will often utilize the core components you created earlier.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+    4. Utilities and State Management:
 
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+        - Set up any utility functions or state management (like Context, Redux, etc.) that your components and pages will rely on. This ensures you have the necessary logic and state handling in place as you build out your components and pages.
