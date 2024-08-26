@@ -99,7 +99,7 @@ function Register() {
                             <div className="txt_field">
                                 <input
                                     type="text"
-                                    placeholder="username"
+                                    placeholder="Username"
                                     name="username"
                                     onChange={handleChange}
                                     id="username"
@@ -109,7 +109,7 @@ function Register() {
                             <div className="txt_field">
                                 <input
                                     type="email"
-                                    placeholder="email"
+                                    placeholder="Email"
                                     name="email"
                                     onChange={handleChange}
                                     id="email"
@@ -119,7 +119,7 @@ function Register() {
                             <div className="txt_field">
                                 <input
                                     type="password"
-                                    placeholder="password"
+                                    placeholder="Password"
                                     name="password"
                                     onChange={handleChange}
                                     id="password"

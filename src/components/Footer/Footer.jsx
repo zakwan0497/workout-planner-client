@@ -7,11 +7,11 @@ const Footer = () => {
             "alignItems": "center",
             "justifyContent": "center",
             "height": "100px",
-            "backgroundColor": "#BE3144",
+            "backgroundColor": "#27296d",
             "color": "white",
             "fontWeight": "800"
         }}>
-            <p>ShapeSync</p>
+            <p>WorkIt</p>
         </div>
     )
 }

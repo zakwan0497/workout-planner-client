@@ -22,7 +22,7 @@ const Navbar = () => {
     return (
         <div className='navContainer'>
             <Link to="/home">
-                <p className='navLogo'>ShapeSync</p>
+                <p className='navLogo'>WorkIt</p>
             </Link>
 
             <input type="checkbox" id='menu-bar' />

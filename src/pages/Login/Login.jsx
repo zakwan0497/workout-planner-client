@@ -42,12 +42,12 @@ function Login() {
             <Navbar />
             <div className="loginCard">
                 <div className="center">
-                    <h1>Welcome Back!</h1>
+                    <h1>Welcome!</h1>
                     <form>
                         <div className="txt_field">
                             <input
                                 type="text"
-                                placeholder="username"
+                                placeholder="Username"
                                 id="username"
                                 onChange={handleChange}
                                 className="lInput"
@@ -56,7 +56,7 @@ function Login() {
                         <div className="txt_field">
                             <input
                                 type="password"
-                                placeholder="password"
+                                placeholder="Password"
                                 id="password"
                                 onChange={handleChange}
                                 className="lInput"

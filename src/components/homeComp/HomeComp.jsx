@@ -48,3 +48,6 @@ const HomeComp = ({ image, name, description, view }) => {
 };
 
 export default HomeComp;
+
+
+// done

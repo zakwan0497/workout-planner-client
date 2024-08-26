@@ -10,26 +10,26 @@ const Home = () => {
         <div className='home'>
             <Navbar />
             <div className="banner">
-                <h1>Welcome to ShapeSync</h1>
-                <p>The one stop solution for your fitness journey</p>
+                <h1>Welcome to WorkIt</h1>
+                <p>Plan your fitness journey with us!</p>
             </div>
             <div className="mainContainer">
                 <HomeComp
                     image="https://media.geeksforgeeks.org/wp-content/uploads/20240308220039/planner.png"
                     name="Entries"
-                    description="Keep track of your daily progress"
+                    description="Add your plan"
                     view="/entries"
                 />
                 <HomeComp
                     image="https://media.geeksforgeeks.org/wp-content/uploads/20240308220039/routine.png"
                     name="Routines"
-                    description="Add personalized routines"
+                    description="Add your routines"
                     view="/routines"
                 />
                 <HomeComp
                     image="https://media.geeksforgeeks.org/wp-content/uploads/20240308220038/meal.png"
                     name="Meals"
-                    description="Add personalized meals"
+                    description="Add your meals"
                     view="/meals"
                 />
 

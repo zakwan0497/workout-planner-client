@@ -41,7 +41,7 @@ const Entries = () => {
                                     <div className="mealItem" key={i}>{m.name}</div>
                                 ))}
                             </div>
-                            <h2>Exercise done</h2>
+                            <h2>Exercise done!</h2>
                             <div className="routinesContainer">
                                 {d?.routines?.map((r, j) => (
                                     <div className="routineItem" key={j}>{r.name}</div>

@@ -12,9 +12,9 @@ const Landing = () => {
             <div className="header">
             </div>
             <div className="upper-layer">
-                <h1>Welcome to <span className='brand-name'>ShapeSync</span></h1>
+                <h1>Welcome to <span className='brand-name'>WorkIt</span></h1>
                 <Link to={user ? '/home' : '/login'}>
-                    <button className='btn-get-started'>Get Started</button>
+                    <button className='btn-get-started'>OK Jom Start!</button>
                 </Link>
             </div>
 
