@@ -26,7 +26,7 @@
 }
 
 .entryItem h1 {
-    background-color: var(--dark-red);
+    background-color: var(--purple);
     color: white;
     border-radius: 10px;
     padding: 5px;
@@ -39,7 +39,7 @@
 }
 
 .entryItem .mealsContainer .mealItem {
-    background-color: var(--cream);
+    background-color: var(--red);
     padding: 5px;
     font-weight: bold;
     border-radius: 10px;
@@ -52,7 +52,7 @@
 }
 
 .entryItem .routinesContainer .routineItem {
-    background-color: var(--cream);
+    background-color: var(--red);
     padding: 5px;
     font-weight: bold;
     border-radius: 10px;

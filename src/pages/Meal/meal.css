@@ -42,7 +42,7 @@
 .mealsViewContainer .mealDetails .mealTime {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--dark-red);
+    color: var(--purple);
 }
 
 .mealsViewContainer .mealDetails .mealCat {
@@ -62,5 +62,5 @@
 }
 
 .mealsViewContainer .mealLink:hover {
-    background-color: var(--dark-red);
+    background-color: var(--purple);
 }

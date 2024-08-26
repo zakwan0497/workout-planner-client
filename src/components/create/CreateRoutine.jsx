@@ -23,7 +23,8 @@ const CreateRoutine = ({ setOpen }) => {
             ...info, author: user._id
         }
         try {
-            await axios.post("http://localhost:2000/api/routines", newRoutine, {
+            // try port 2000
+            await axios.post("http://localhost:7700/api/routines", newRoutine, {
                 withCredentials: false
             })
             setOpen(false)

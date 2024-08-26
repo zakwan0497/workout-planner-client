@@ -22,7 +22,9 @@ const CreateEntry = ({ setOpen }) => {
             ...info, author: user._id
         }
         try {
-            await axios.post('http://localhost:2000/api/entries/', newEntry, {
+            // await axios.post('http://localhost:2000/api/entries/', newEntry, {
+            await axios.post('http://localhost:7700/api/entries/', newEntry, {
+    
                 withCredentials: false
             })
             setOpen(false)

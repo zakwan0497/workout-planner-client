@@ -9,7 +9,7 @@
 }
 
 .routinesView .routinesViewContainer .routineViewItem {
-    border: 5px solid var(--red);
+    border: 5px solid var(--purple);
     position: relative;
     display: flex;
     flex-direction: column;
@@ -43,11 +43,11 @@
 .routinesViewContainer .routineDetails .routineType {
     font-size: 1.1rem;
     font-weight: 600;
-    color: var(--cream);
+    color: var(--red);
 }
 
 .routinesViewContainer .routineDetails .routinePart {
-    background-color: var(--red);
+    background-color: var(--purple);
     border-radius: 10px;
     padding: 10px;
     font-weight: 700;
@@ -57,11 +57,11 @@
     font-size: 1.2rem;
     font-weight: 700;
     color: white;
-    background-color: var(--red);
+    background-color: var(--purple);
     padding: 5px 0;
     cursor: pointer;
 }
 
 .routinesViewContainer .routineLink:hover {
-    background-color: var(--dark-red);
+    background-color: var(--purple);
 }
